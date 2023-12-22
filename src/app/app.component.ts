@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-
+import { Component, ViewChild } from '@angular/core';
+import { Observable } from 'rxjs';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,17 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Radha.Portfolio';
 
-  certifications = [
-    {
-      title: 'Certification 1',
-      description: 'Description for Certification 1',
-      image: 'path/to/certification1.jpg'
-    },
-    {
-      title: 'Certification 2',
-      description: 'Description for Certification 2',
-      image: 'path/to/certification2.jpg'
-    },
-    // Add more certifications as needed
-  ];
+fileName = "Resume-Radha.pdf";
 }
