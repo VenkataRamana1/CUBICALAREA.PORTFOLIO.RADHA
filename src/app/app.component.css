@@ -1,0 +1,84 @@
+.row {
+    margin-right: 0px;
+}
+
+.client-info:before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: -50px;
+    background: url(/assets/assets/img/steps/client-info-bg.png) no-repeat;
+    height: 175px;
+    width: 175px;
+}
+
+.client-info {
+    padding: 25px 30px;
+    background: #faf8ff;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.client-info .lage {
+    color: #854fee;
+    font-family: "Rubik", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 85px;
+    position: relative;
+    z-index: 9;
+}
+
+.client-info .smll {
+    text-align: left;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.single-brand-item img {
+    max-width: 80px;
+    margin: 0 auto;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.imgalign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h4 {
+    color: #fff !important;
+}
+
+.link-900{
+    color: #fff !important;
+}
+
+p {
+    color: #fff !important;
+}
